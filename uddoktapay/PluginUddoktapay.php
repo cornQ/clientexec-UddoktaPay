@@ -10,7 +10,7 @@ class PluginUddoktapay extends GatewayPlugin
             lang("Plugin Name") => array (
                 "type"          => "hidden",
                 "description"   => lang("How CE sees this plugin (not to be confused with the Signup Name)"),
-                "value"         => lang("UddpktaPay")
+                "value"         => lang("UddoktaPay")
             ),
             lang("API KEY") => array (
                 "type"          => "text",
@@ -30,7 +30,7 @@ class PluginUddoktapay extends GatewayPlugin
             lang("Signup Name") => array (
                 "type"          => "text",
                 "description"   => lang("Select the name to display in the signup process for this payment type. Example: Bangladeshi Payment Gateway or bKash/Rocket/Nagad/Upay."),
-                "value"         => "UddpktaPay"
+                "value"         => "UddoktaPay"
             )
 
         );
